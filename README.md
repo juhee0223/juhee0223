@@ -1,122 +1,112 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8EC5FC,100:E0C3FC&height=180&section=header&text=Juhee%20Park🌱&fontSize=50&fontColor=2F4F4F&animation=fadeIn&desc=Software%20Engineer&descAlignY=62&descAlign=50" />
-</p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8EC5FC,100:E0C3FC&height=180&section=header&text=Juhee%20Park🌱&fontSize=50&fontColor=2F4F4F&animation=fadeIn&desc=Software%20Engineer&descAlignY=62&descAlign=50" /> </p>
 
 <div align="center">
   
-<table align="center">
-  <tr>
-    <td><b>👤 Name</b><br/>Juhee Park (박주희)</td>
-    <td><b>🎓 Student ID</b><br/>32221902</td>
-    <td><b>🏫 Major</b><br/>단국대학교 소프트웨어학과 (3학년)</td>
-  </tr>
-  <tr>
-    <td><b>✉️ Email</b><br/><a href="mailto:pjuhee23@dankook.ac.kr">pjuhee23@dankook.ac.kr</a></td>
-    <td><b>🐙 GitHub</b><br/><a href="https://github.com/juhee0223">github.com/juhee0223</a></td>
-    <td><b>🔬 Lab</b><br/><a href="https://sslab.dankook.ac.kr/">System Software Laboratory (SSLAB)</a></td>
-  </tr>
-</table>
+| Name | Juhee Park (박주희) |
+|------|----------------------|
+| Student ID | 32221902 |
+| Major | 단국대학교 소프트웨어학과 (3학년) |
+| Email | [pjuhee23@dankook.ac.kr](mailto:pjuhee23@dankook.ac.kr) |
+| GitHub | [github.com/juhee0223](https://github.com/juhee0223) |
+| Lab | [System Software Laboratory (SSLAB)](https://sslab.dankook.ac.kr/) |
 
 </div>
-
-<div align="center">
 
 ---
 
 ### About Me
-🎓 **Undergraduate Student, Dankook University – Software Engineering (3rd Year)**  
-🔬 **Undergraduate Researcher @ System Software Laboratory (SSLAB)**  
-> *(Since July 2025, advised by Prof. Jongmoo Choi — [Lab Website](https://sslab.dankook.ac.kr/))*  
+안녕하세요, **운영체제와 스토리지 시스템을 연구하는 개발자 지망생 Juhee Park**입니다.  
+데이터가 저장되고 이동하는 가장 밑단의 구조에 흥미를 가지고 있으며,  
+**LSM-tree, FTL, RocksDB** 같은 스토리지 아키텍처를 분석하고 최적화하는 일을 즐깁니다.  
 
-운영체제 및 스토리지 시스템 최적화를 중심으로  
-**RocksDB, SSD FTL 시뮬레이터, Key-Value Database** 성능 분석 및 시각화 연구를 수행하고 있습니다.  
-현재는 **한국연구재단 중견연구자지원사업** 및 **SW중심대학사업(2024-0-00035)** 지원 과제에 참여 중입니다.
+현재 **단국대학교 System Software Laboratory**에서  
+**NAND Flash 기반 FTL 구조와 RocksDB의 컴팩션 정책 분석 연구**를 진행 중입니다.  
+이 연구를 기반으로 **KCC 2025에서 논문을 발표**했습니다.  
+
+> “데이터가 저장되는 가장 낮은 계층까지 이해하는 백엔드/스토리지 엔지니어”가 되는 것이 목표입니다.
 
 ---
 
-### Tech Stack 🛠 
+### Tech Stack
+
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> 
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <br/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-</p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> </p>
+
+#### 기술적 강점
+- C/C++ 기반 시스템 소프트웨어 구조 분석 및 성능 튜닝 경험  
+- Linux 환경에서의 디버깅·프로파일링 툴 사용 (perf, gprof, iostat 등)  
+- FTL, Compaction, Garbage Collection 등 스토리지 내부 동작 실험  
+- Python, Bash를 활용한 실험 자동화 및 시각화  
 
 ---
 
-### Featured Projects
+### Projects
 
-<div align="center">
 
-| 프로젝트 | 내용 | 역할 및 기술 | 성과 | 링크 |
-|:---------:|:----:|:-------------:|:----:|:----:|
-| 🪶 **AI Bird Repeller** | YOLO + BirdNET 기반 조류 식별 및 맞춤형 퇴치 사운드 시스템 | Python, Audio Signal Processing, Thread 기반 사운드 매칭 모듈 개발 | 🏆 KHUTHON 2025 해커톤 **우수상 수상** | [🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
-| 💾 **FTL Simulator** | NAND Flash 기반 SSD의 FTL 핵심 로직 (Mapping, GC) 구현 | C++, Class-based Simulation, GC 정책별 성능 비교 | Cost-Benefit 대비 **WAF −13.4%**, GC Latency **−21%** | [🔗 GitHub](https://github.com/juhee0223/FTL-Simulator) |
-| 📊 **RocksDB Compaction Analyzer** | Leveled/Universal/FIFO 컴팩션 성능 실험 자동화 툴 | Bash, RocksDB DBBench, Python Matplotlib 분석 | Read Latency–WAF 관계 정량화 | — |
+| 프로젝트 | 설명 | 기술 | 성과 / 링크 |
+|:----------:|:------|:------|:------|
+| AI Bird Repeller | YOLOv5 + BirdNET으로 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
+| FTL Simulator (GameGC) | 다양한 Garbage Collection 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | 진행 중 연구 프로젝트<br/>→ GC latency의 **스파이크 vs 점진적 회수 패턴** 분석<br/>[🔗 GitHub](https://github.com/juhee0223/OpenSSD-GC) |
+| RocksDB Compaction Analyzer | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/> |
+| DACON – 고객 지원 등급 분류 | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
 
-</div>
-
----
-
-### Publications 📖
-
-<div align="center">
-
-| 제목 | 학회 / 연도 | 요약 | 비고 |
-|:----:|:-------------:|:----:|:----:|
-| **RocksDB에서 Compaction Style에 따른 성능 변화 분석**<br/>박주희, 신호진, Guangxun Zhao, 최종무 | **KCC 2025 (한국컴퓨터종합학술대회)** | Leveled / Universal / FIFO 컴팩션 스타일 간 Write Amplification–Read Efficiency 트레이드오프 분석 | NRF 중견연구자지원사업<br/>(No. 2022R1A2C1006050)<br/>SW중심대학사업(2024-0-00035)<br/>🌐 [학회 링크](https://www.kiise.or.kr/conference/kcc/2025/) |
-| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park, Si-hwan Yoo, Jongmoo Choi, Min-kyu Park, Kwang-il Jeon | **WDSC 2025 (정보보안 및 고신뢰컴퓨팅 하계워크샵)** | OSTEP 교과서 기반 벡터 공간 시각화 및 의미 해석 기법 제안 | 🏆 **WDSC 2025 우수논문상 수상**<br/>🌐 [학회 링크](https://sites.google.com/view/wdsc2025) |
-
-</div>
 
 ---
 
-### Research Interests 🔍 
-- 운영체제 및 스토리지 시스템 (Operating Systems & Storage Systems)  
-- SSD FTL(Flash Translation Layer) 구조 및 GC 정책 최적화  
-- RocksDB/LSM-tree 기반 Key-Value Storage 성능 분석  
-- 시스템 성능 시각화 및 데이터 기반 최적화  
+### Publications
+
+| 제목 | 학회 / 연도 | 개요 | 비고 |
+|:------|:-------------|:------|:------|
+| **RocksDB에서 Compaction Style에 따른 성능 변화 분석**<br/>박주희, 신호진, Guangxun Zhao, 최종무 | [**KCC 2025 (한국컴퓨터종합학술대회)**](https://www.kcc2025.or.kr/) | RocksDB의 Leveled / Universal / FIFO 컴팩션 스타일 간 Write Amplification–Read Efficiency 트레이드오프를 정량적으로 분석 | <br/>NRF 중견연구자지원사업 (No. 2022R1A2C1006050)<br/>SW중심대학사업 (2024-0-00035) |
+| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park 외 | [**WDSC 2025 (정보보안 및 고신뢰컴퓨팅 하계워크샵)**](https://sites.google.com/view/wdsc2025/) | OSTEP 교재 텍스트를 임베딩하여 벡터 공간 구조를 시각화하고 의미론적 군집을 분석한 연구 | 🏆 **WDSC 2025 우수논문상 수상** |
+
+---
+
+### Research Interests
+- Operating Systems Internals (스케줄링, 메모리 관리, I/O 서브시스템)  
+- Storage System Optimization (FTL, RocksDB 등)  
+- Data-driven System Analysis (성능 로그 기반 이상 탐지 및 시각화)  
+- Software Reliability Engineering (WAF 최소화 연구)  
 
 ---
 
 ### Activities
 **단국대학교 SW 서포터즈 (2025.09 ~ 2026.02 예정)**  
-- SW중심대학사업단 행사(캡스톤 디자인 대회 등) 기획 및 운영  
-- **Cosmos+ OpenSSD** 장비 관리 및 학생 대여 담당  
+- SW중심대학사업단 주관 행사 운영 (캡스톤 대회, AI톤 등)  
+- Cosmos+ OpenSSD 장비 관리 및 FTL 실습 지원  
+- 연구 장비 운영 및 교육 지원을 통한 실무 경험 축적  
 
 ---
 
-### 학습 목표
-- RocksDB 및 FTL 시뮬레이터 통합 분석 프레임워크 개발  
-- **LSM-tree 기반 스토리지 시스템의 실시간 GC 효율화** 연구  
-- 운영체제 스케줄러와 스토리지 계층의 상호작용 성능 분석  
+### Career Vision
+시스템의 가장 낮은 레이어에서 문제를 이해하고 해결하는 엔지니어로 성장하고 싶습니다.  
+
+**단기 목표 (1년 이내)**  
+- RocksDB와 FTL Simulator를 통합한 분석 프레임워크 구축  
+- C++ 기반의 저수준 성능 최적화 및 디버깅 역량 강화  
+
+**중기 목표 (3년 내)**  
+- 대용량 스토리지 엔진 및 백엔드 인프라 연구 참여  
+- 국제 학회 논문 제출 및 오픈소스 기여  
+
+**장기 목표 (5년 이상)**  
+- Storage/Database/OS 커널 전문 엔지니어로 성장  
+- 실험적 결과를 기반으로 산업용 DB 성능 최적화 연구 수행  
 
 ---
 
-### GitHub Stats 📈
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juhee0223&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juhee0223&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=juhee0223&show_icons=true&theme=transparent&hide_border=true" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juhee0223&layout=compact&theme=transparent&hide_border=true" width="48%"/>
 </p>
 
 ---
 
-### Contact
 📧 **Email:** [pjuhee23@dankook.ac.kr](mailto:pjuhee23@dankook.ac.kr)  
 🔗 **GitHub:** [github.com/juhee0223](https://github.com/juhee0223)
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=8EC5FC&height=100&section=footer&text=Thank%20you%20for%20visiting!💙&fontSize=18&fontColor=FFFFFF&animation=twinkling"/>
-</p>
-
-</div>
