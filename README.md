@@ -6,7 +6,7 @@
 |------|----------------------|
 | Student ID | 32221902 |
 | Major | 단국대학교 소프트웨어학과 (3학년) |
-| Email | [pjuhee23@dankook.ac.kr](mailto:pjuhee23@dankook.ac.kr) |
+| Email | pjuhee23@dankook.ac.kr |
 | GitHub | [github.com/juhee0223](https://github.com/juhee0223) |
 | Lab | [System Software Laboratory (SSLAB)](https://sslab.dankook.ac.kr/) |
 
@@ -49,12 +49,16 @@
 ### Projects
 
 
+<div align="center">
+
 | 프로젝트 | 설명 | 기술 | 성과 / 링크 |
 |:----------:|:------|:------|:------|
-| AI Bird Repeller | YOLOv5 + BirdNET으로 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
-| FTL Simulator (GameGC) | 다양한 Garbage Collection 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | 진행 중 연구 프로젝트<br/>→ GC latency의 **스파이크 vs 점진적 회수 패턴** 분석<br/>[🔗 GitHub](https://github.com/juhee0223/OpenSSD-GC) |
-| RocksDB Compaction Analyzer | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/> |
-| DACON – 고객 지원 등급 분류 | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
+| **AI Bird Repeller** | YOLOv5 + BirdNET으로 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>→ 실시간 AI 인퍼런스 환경에서의 리소스 최적화 경험으로 스토리지·OS 성능 튜닝 역량 강화에 기여<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
+| **RocksDB Compaction Analyzer** | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/>→ 실제 스토리지 엔진의 데이터 경로 구조 분석 및 성능 병목 추적 경험<br/> |
+| **DACON – 고객 지원 등급 분류** | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
+| **FTL Simulator (GameGC)** | 다양한 GC 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | **Ongoing Research Project**<br/>GC latency의 **스파이크 vs 점진적 회수 패턴** 분석 중<br/>[🔗 GitHub](https://github.com/juhee0223/OpenSSD-GC) |
+
+</div>
 
 
 ---
@@ -63,8 +67,8 @@
 
 | 제목 | 학회 / 연도 | 개요 | 비고 |
 |:------|:-------------|:------|:------|
-| **RocksDB에서 Compaction Style에 따른 성능 변화 분석**<br/>박주희, 신호진, Guangxun Zhao, 최종무 | [**KCC 2025 (한국컴퓨터종합학술대회)**](https://www.kcc2025.or.kr/) | RocksDB의 Leveled / Universal / FIFO 컴팩션 스타일 간 Write Amplification–Read Efficiency 트레이드오프를 정량적으로 분석 | <br/>NRF 중견연구자지원사업 (No. 2022R1A2C1006050)<br/>SW중심대학사업 (2024-0-00035) |
-| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park 외 | [**WDSC 2025 (정보보안 및 고신뢰컴퓨팅 하계워크샵)**](https://sites.google.com/view/wdsc2025/) | OSTEP 교재 텍스트를 임베딩하여 벡터 공간 구조를 시각화하고 의미론적 군집을 분석한 연구 | 🏆 **WDSC 2025 우수논문상 수상** |
+| **RocksDB에서 Compaction Style에 따른 성능 변화 분석**<br/>박주희, 신호진, Guangxun Zhao, 최종무 | [**KCC 2025 (한국컴퓨터종합학술대회)**](https://www.kiise.or.kr/conference/kcc/2025/) | RocksDB의 Leveled / Universal / FIFO 컴팩션 스타일 간 Write Amplification–Read Efficiency 트레이드오프를 정량적으로 분석 | <br/>NRF 중견연구자지원사업 (No. 2022R1A2C1006050)<br/>SW중심대학사업 (2024-0-00035) |
+| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park, Si-hwan Yoo, Jongmoo Choi, Min-kyu Park, Kwang-il Jeon. | [**WDSC 2025 (정보보안 및 고신뢰컴퓨팅 하계워크샵)**](https://sites.google.com/view/wdsc2025/) | OSTEP 교재 텍스트를 임베딩하여 벡터 공간 구조를 시각화하고 의미론적 군집을 분석한 연구 | 🏆 **WDSC 2025 우수논문상 수상** |
 
 ---
 
