@@ -72,6 +72,16 @@
 
 ---
 
+### 🏆 Awards & Honors
+
+| 연도 | 수상명 | 주최 / 기관 | 비고 |
+|:--:|:--|:--|:--|
+| **2025** | 🏆 KHUTHON 2025 해커톤 우수상 | (단국대, 경희대, 아주대, 경기대) SW중심사업단 | 프로젝트: *AI Bird Repeller (YOLOv5 + BirdNET)* |
+| **2025** | 🥇 WDSC 2025 우수논문상 | 정보보안 및 고신뢰컴퓨팅 하계워크샵 | 논문: *Visualization and Semantic Interpretation of Vector Space Structures* |
+
+---
+
+
 ### Research Interests
 - Operating Systems Internals (스케줄링, 메모리 관리, I/O 서브시스템)  
 - Storage System Optimization (FTL, RocksDB 등)  
