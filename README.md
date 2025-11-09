@@ -11,6 +11,7 @@
 | Email | pjuhee23@dankook.ac.kr |
 | GitHub | [github.com/juhee0223](https://github.com/juhee0223) |
 | Lab | [System Software Laboratory (SSLAB)](https://sslab.dankook.ac.kr/) |
+| GPA | 누적 학점 4.34 / 4.5 |
 
 </div>
 
@@ -18,18 +19,18 @@
 
 ### About Me
 **시스템 소프트웨어와 AI를 연결하는 백엔드·스토리지 엔지니어** 박주희입니다.  
-저는 **데이터 경로의 최하단(FTL, Compaction, GC)**부터 **AI 기반 성능 분석과 최적화**까지 다루며,  
+저는 **데이터 경로의 최하단(FTL, GC)** 부터 **AI 기반 성능 분석과 최적화** 까지 다루며,  
 시스템의 동작 원리를 정량적으로 이해하고 개선하는 일을 할 수 있습니다.
 
-최근에는 **RocksDB 컴팩션(Leveled / Universal / FIFO)** 을 분석해서
-**WAF–Latency 트레이드오프를 수치화**했고, 이를 **KCC 2025 논문(1저자)**으로 발표했습니다.  
+최근에는 **RocksDB Compaction (Leveled / Universal / FIFO)** 을 분석해서
+**WAF–Latency 트레이드오프를 수치화**했고, 이를 **KCC 2025 논문(1저자)** 으로 발표했습니다.  
 또한 **YOLOv5 + BirdNET 기반 실시간 AI 시스템**을 개발해 **KHUTHON 2025 해커톤 우수상**을 수상하며,  
 **리소스 제약 환경에서의 AI 모델 최적화 및 병렬 처리 효율화**를 경험했습니다.
 
 이처럼 저는 **AI 기술을 시스템 성능 분석과 운영 효율 향상에 접목**하는  
 **‘AI-aware System Engineer’** 로 성장하고자 합니다.  
 
-> 관심 분야 키워드: **WAF 최소화 · p99 안정화 · Compaction Budget · AI-driven Profiling · Resource-efficient Inference**
+> 관심 분야 키워드: **WAF 최소화 · Compaction Budget · AI-driven Profiling · Resource-efficient Inference**
 
 ---
 
@@ -47,7 +48,7 @@
 
 | 프로젝트 | 설명 | 기술 | 성과 / 링크 |
 |:----------:|:------|:------|:------|
-| **AI Bird Repeller** | YOLOv5 + BirdNET으로 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>→ 실시간 AI 인퍼런스 환경에서의 리소스 최적화 경험으로 스토리지·OS 성능 튜닝 역량 강화에 기여<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
+| **AI Bird Repeller** | (대회 주제: 농업의 기술화) YOLOv5 + BirdNET으로 농작물에 피해를 입히는 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>→ 실시간 AI 인퍼런스 환경에서의 리소스 최적화 경험으로 스토리지·OS 성능 튜닝 역량 강화에 기여<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
 | **RocksDB Compaction Analyzer** | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/>→ 실제 스토리지 엔진의 데이터 경로 구조 분석 및 성능 병목 추적 경험<br/> |
 | **DACON – 고객 지원 등급 분류** | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
 | **FTL Simulator (GameGC)** | 다양한 GC 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | **Ongoing Research Project**<br/>GC latency의 **스파이크 vs 점진적 회수 패턴** 분석 중<br/>[🔗 GitHub](https://github.com/juhee0223/OpenSSD-GC) |
@@ -72,13 +73,13 @@
 
 **시스템 소프트웨어 분석 및 성능 최적화**
 - C/C++ 기반의 **운영체제·스토리지 내부 구조(FTL, Compaction, GC)** 분석 및 튜닝 경험  
-- Linux 환경에서 **fio, strace** 등을 활용한 병목 추적 및 성능 프로파일링  
+- Linux 환경에서 **fio, strace** 등을 활용한 병목 추적 및 성능 분석  
 - RocksDB, NAND FTL 시뮬레이터 등 **실제 스토리지 워크로드 재현 환경 구축 및 최적화**
 
 **AI 기반 분석 및 실험 자동화**
 - Python 기반으로 **성능 로그 분석·시각화 파이프라인** 구축  
-- scikit-learn, PyTorch를 활용한 **모델 기반 성능 예측·이상 탐지 실험** 수행  
-- **Bash + Python 스크립트**로 수백 회의 실험 반복을 자동화하고 결과를 구조화
+- scikit-learn, Keras를 활용한 **모델 기반 성능 예측·이상 탐지 실험** 수행  
+- **Bash + Python 스크립트**로 수십 회의 실험 반복을 자동화하고 결과를 구조화
 
 **데이터 중심 문제 해결**
 - 실험 결과를 기반으로 **WAF, p99 latency, throughput** 등 지표를 수치화하여 원인 분석  
@@ -86,8 +87,8 @@
 - 연구·프로젝트 전반에 **측정 → 분석 → 시각화 → 개선**의 정량적 접근을 적용
 
 **협업 및 확장성**
-- GitHub 기반 협업 및 버전 관리, Docker 환경에서 reproducible experiment 구현  
-- 논문(KCC 2025, WDSC 2025) 및 해커톤 프로젝트를 통해 **연구·개발·성과 발표까지 전주기 수행 경험**
+- GitHub 기반 협업 및 버전 관리
+- 논문(KCC 2025, WDSC 2025) 및 해커톤 프로젝트를 통해 **연구·개발·성과 발표까지 전주기 과정 수행해본 경험**
 
 ---
 
@@ -104,7 +105,7 @@
 
 | 연도 | 수상명 | 주최 / 기관 | 비고 |
 |:--:|:--|:--|:--|
-| **2025** | 🏆 KHUTHON 2025 해커톤 우수상 | (단국대, 경희대, 아주대, 경기대) SW중심사업단 | 프로젝트: *AI Bird Repeller (YOLOv5 + BirdNET)* |
+| **2025** | 🏆 KHUTHON 2025 해커톤 우수상 (대회 주제: 농업의 기술화) | (단국대, 경희대, 아주대, 경기대) SW중심사업단 | 프로젝트: *AI Bird Repeller (YOLOv5 + BirdNET)* |
 | **2025** | 🥇 WDSC 2025 우수논문상 | 정보보안 및 고신뢰컴퓨팅 하계워크샵 | 논문: *Visualization and Semantic Interpretation of Vector Space Structures* |
 
 ---
@@ -113,12 +114,12 @@
 **단기 (0–6개월)**  
 - **RocksDB × FTL 시뮬레이션 프레임워크** 구축  
 - 워크로드별 컴팩션 예산 추천 리포트 자동화 + **AI 모델 기반 성능 예측 실험**  
-- 목표: 동일 하드웨어에서 **read p99 10% 안정화**, **WAF 15% 감소**
+- 목표: 동일 하드웨어에서 **WAF 감소**
 
 **중기 (6–12개월)**  
 - **AI 기반 스토리지 성능 분석 파이프라인** 구현 (로그 → 모델 예측 → 시각화)  
 - **Hot/Cold 구분 자동화 및 Compaction Cost 예측 모델** 개발  
-- 목표: **GC 빈도 20% 감소**, **장애 예측 정확도 90% 이상**
+- 목표: **GC 빈도 감소**, **장애 예측 정확도 90% 이상**
 
 **장기 (1–3년)**  
 - **AI + System co-design 연구**로 확장 (Compaction scheduler, FTL policy adaptation)  
