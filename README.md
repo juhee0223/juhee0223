@@ -46,14 +46,15 @@
 
 <div align="center">
 
-| 프로젝트 | 설명 | 기술 | 성과 / 링크 |
-|:----------:|:------|:------|:------|
-| **AI Bird Repeller** | (대회 주제: 농업의 기술화) YOLOv5 + BirdNET으로 농작물에 피해를 입히는 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 KHUTHON 2025 해커톤 **우수상 수상**<br/>→ 실시간 AI 인퍼런스 환경에서의 리소스 최적화 경험으로 스토리지·OS 성능 튜닝 역량 강화에 기여<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
-| **RocksDB Compaction Analyzer** | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/>→ 실제 스토리지 엔진의 데이터 경로 구조 분석 및 성능 병목 추적 경험<br/> |
-| **DACON – 고객 지원 등급 분류** | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
-| **FTL Simulator (GameGC)** | 다양한 GC 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | **Ongoing Research Project**<br/>GC latency의 **스파이크 vs 점진적 회수 패턴** 분석 중<br/>[🔗 GitHub](https://github.com/juhee0223/COSMOSPLUS_MICRON_OPENSSD.git) |
+| 프로젝트 | 기간 | 설명 | 기술 | 성과 / 링크 |
+|:----------:|:------|:------|:------|:------|
+| **FTL Simulator (GameGC)** | 2025.10 – Ongoing | 다양한 GC 정책(Greedy, Cost-Benefit, CAT)을 C로 구현하고, Pipeline 기반 **GameGC** 방식의 성능 비교 실험 수행 | C, File I/O, Visualization | **Ongoing Research Project**<br/>GC latency의 **스파이크 vs 점진적 회수 패턴** 분석 중<br/>[🔗 GitHub](https://github.com/juhee0223/COSMOSPLUS_MICRON_OPENSSD.git) |
+| **DACON – 고객 지원 등급 분류** | 2025.09 – 2025.10 | 고객 데이터를 기반으로 지원 필요 수준을 분류하는 AI 모델 개발<br/>Feature Engineering 및 모델 성능 비교 실험 수행 | Python, scikit-learn, TensorFlow, XGBoost | F1 Score 상위 10% 달성<br/>[🔗 GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
+| **RocksDB Compaction Analyzer** | 2025.01 – 2025.05 | RocksDB의 Compaction Style(Leveled, Universal, FIFO) 간 성능 차이를 자동 측정·분석 및 시각화 | RocksDB DBBench, Bash, Python | **KCC 2025 논문(1저자)** 발표<br/>→ 실제 스토리지 엔진의 데이터 경로 구조 분석 및 성능 병목 추적 경험 |
+| **AI Bird Repeller** | 2025.05.09 – 2025.05.10 *(무박 2일 해커톤)* | (대회 주제: 농업의 기술화) YOLOv5 + BirdNET으로 농작물에 피해를 입히는 조류를 인식하고, 각 새가 싫어하는 소리를 자동 재생하는 지능형 퇴치 시스템 | Python, Threading, YOLOv5, BirdNET | 🏆 **KHUTHON 2025 해커톤 우수상 수상**<br/>→ 실시간 AI 인퍼런스 환경에서의 리소스 최적화 경험으로 스토리지·OS 성능 튜닝 역량 강화에 기여<br/>[🔗 GitHub](https://github.com/JustYOLO/Getout_Bird) |
 
 </div>
+
 
 ---
 
