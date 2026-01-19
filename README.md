@@ -4,13 +4,6 @@
 
 <div align="center">
   
-| Name | Juhee Park (박주희) |
-|------|----------------------|
-| Student ID | 32221902 |
-| Major | 단국대학교 소프트웨어학과 (3학년) |
-| Email | pjuhee23@dankook.ac.kr |
-| GitHub | [github.com/juhee0223](https://github.com/juhee0223) ||
-
 </div>
 
 ---
@@ -63,14 +56,6 @@
 | **2025** | 🏆 KHUTHON 2025 해커톤 우수상 (대회 주제: 농업의 기술화) | (단국대, 경희대, 아주대, 경기대) SW중심사업단 | 프로젝트: *AI Bird Repeller (YOLOv5 + BirdNET)* |
 | **2025** | 🥇 WDSC 2025 우수논문상 | 정보보안 및 고신뢰컴퓨팅 하계워크샵 | 논문: *Visualization and Semantic Interpretation of Vector Space Structures* |
 | **2025** | 🏆 EASYTHON 2025 해커톤 우수상 | (단국대) SW중심사업단 | 프로젝트: *Sun(善)-Date* |
-
----
-
-### Activities
-**단국대학교 SW 서포터즈 (2025.09 ~ 2026.02 예정)**  
-- SW중심대학사업단 주관 행사 운영 (캡스톤 대회, AI톤 등)  
-- Cosmos+ OpenSSD 장비 관리 및 FTL 실습 지원  
-- 연구 장비 운영 및 교육 지원을 통한 실무 경험 축적  
 
 ---
 
