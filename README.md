@@ -56,7 +56,7 @@
 | 제목 | 학회 / 출판 | 개요 | 비고 |
 |:------|:-------------|:------|:------|
 | **운영체제 교재기반 RAG시스템 구축**<br/>김보승, 박주희, 최종무, 전광일, 박민규 | **글통**<br/>(2026) | 운영체제 교재 텍스트를 기반으로 한 RAG 시스템 구축 과정을 다룬 교육용 저서 | 비매품 단행본 (공동저자)<br/>ISBN: 979-11-94546-10-8 |
-| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park, 외 4명 | [**WDSC 2025**](https://sites.google.com/view/wdsc2025/) | OSTEP 교재 텍스트를 임베딩하여 벡터 공간 구조를 시각화하고 의미론적 군집을 분석한 연구 | 🏆 **WDSC 2025 우수논문상 수상** |
+| **Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP**<br/>Bo-seung Kim, Juhee Park, 외 4명 | [**WDSC 2025**](https://sites.google.com/view/wdsc2025/) | OSTEP 교재 텍스트를 임베딩하여 벡터 공간 구조를 시각화하고 의미론적 군집을 분석한 연구 | 🏆 **WDSC 2025 우수논문상 수상** https://github.com/DKU-StarLab/OSTEP_RAG|
 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석**<br/>박주희, 신호진, Guangxun Zhao, 최종무 | [**KCC 2025**](https://www.kiise.or.kr/conference/kcc/2025/) | RocksDB의 Leveled / Universal / FIFO 컴팩션 스타일 간 Write Amplification–Read Efficiency 트레이드오프 정량적 분석 | NRF 중견연구자지원사업<br/>SW중심대학사업 |
 
 ---
