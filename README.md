@@ -21,6 +21,7 @@
 
 | 프로젝트 | 기간 | 설명 | 기술 | 성과 / 링크 |
 |:----------:|:------|:------|:------|:------|
+| **OLLY** | 2026.05 – 2026.06 | LLM/RAG 챗봇 서비스의 비용·토큰·지연·병목·실패·알림을 단일 요청 단위(`request_id`/`trace_id`)로 추적하는 CNCF 네이티브 관측성 플랫폼 구축.<br/>FastAPI API 계측 및 OpenTelemetry, Prometheus, Jaeger, Grafana, K8s(kind) 연동과 SLM/Discord 기반 자동 알림 시스템 개발. | FastAPI, OpenTelemetry, Prometheus, Jaeger, Grafana, Kubernetes (kind), Docker, Ollama | **CNCF 네이티브 LLM 관측성 파이프라인 구축**<br/>5가지 시나리오 기반 단계별 병목 식별 및 자동 알림 체계 구현<br/>[🔗 GitHub](https://github.com/lee-y-ch/olly) |
 | **Dan Zzan (단짠)** | 2025.12 – On going | 대학교 축제 티켓팅 서비스 및 관리자 페이지 개발.<br/>보안을 강화한 이메일 기반 비밀번호 재설정 흐름 구축 및 네이버 FaceSign 시스템 연동 기획. | Spring Boot, Redis, Kafka, Docker, AWS, React Vite | **10,000 VU 대상 부하 테스트(정합성 및 순서 보장) 통과.**<br/>[🔗 GitHub](https://github.com/orgs/DKU-Dan-Zzan/repositories) |
 | **SketchToSpec** | 2025.11 – 2025.12 | 손그림 UI·기능·텍스트 입력을 결합하여 SRS 요구사항 명세서 및 ASCII 화면 흐름을 자동 생성하는 멀티모달 ReAct Agent 시스템.<br/>OpenCV 기반 UI 요소 감지 및 LangGraph StateGraph 기반 Self-Healing(Plan Revision) 루프 구현. | LangGraph, Streamlit, OpenCV, PyTorch, Local LLM (Qwen) | **LangGraph 기반 멀티모달 ReAct Agent 파이프라인 구축**<br/>[🔗 GitHub](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT) |
 | **Sun(善)-Date** | 2025.11 <br/> *(해커톤)* | 봉사활동을 함께 하며 서로를 알아볼 수 있는 소셜 네트워킹 및 소개팅 서비스. | Django, Flutter, Java | 🏆 **EASYTHON 2025 해커톤 우수상 수상**<br/>[🔗 GitHub](https://github.com/day-e0n/sun_date) |
