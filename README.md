@@ -21,6 +21,7 @@
 
 | 프로젝트 | 기간 | 설명 | 기술 | 성과 / 링크 |
 |:----------:|:------|:------|:------|:------|
+| **Conquer Health** <br/> *(의료 특화 FM 해커톤)* | 2026.08 | 의료 특화 파운데이션 모델을 활용한 대국민 건강관리 챗봇 개발.<br/>의료 RAG, 위험 신호 감지, 약물·법령·진료 가이드라인 기반 응답 및 멀티턴 평가 파이프라인 구성. | Python, Docker, Pydantic, Async, LLM/RAG, HealthBench | 🏆 **의료 특화 파운데이션 모델 해커톤 벤치마크상**<br/>주요 의과학 벤치마크에서 글로벌 프론티어 모델과 비견 가능한 성능 입증<br/>[🔗 GitHub](https://github.com/Hackathon-AIM/health-conquer-submission) · [📰 공식 기사](https://www.lunit.io/ko/media-hub/%EB%A3%A8%EB%8B%9B-%EA%B5%AD%EA%B0%80%EA%B3%BC%EC%A0%9C-ai-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-%EC%B2%AB-%ED%95%B4%EC%BB%A4%ED%86%A4-%EC%84%B1%EB%A3%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90/) |
 | **OLLY** | 2026.05 – 2026.06 | LLM/RAG 챗봇 서비스의 비용·토큰·지연·병목·실패·알림을 단일 요청 단위(`request_id`/`trace_id`)로 추적하는 CNCF 네이티브 관측성 플랫폼 구축.<br/>FastAPI API 계측 및 OpenTelemetry, Prometheus, Jaeger, Grafana, K8s(kind) 연동과 SLM/Discord 기반 자동 알림 시스템 개발. | FastAPI, OpenTelemetry, Prometheus, Jaeger, Grafana, Kubernetes (kind), Docker, Ollama | **CNCF 네이티브 LLM 관측성 파이프라인 구축**<br/>5가지 시나리오 기반 단계별 병목 식별 및 자동 알림 체계 구현<br/>[🔗 GitHub](https://github.com/lee-y-ch/olly) |
 | **Dan Zzan (단짠)** | 2025.12 – On going | 대학교 축제 티켓팅 서비스 및 관리자 페이지 개발.<br/>보안을 강화한 이메일 기반 비밀번호 재설정 흐름 구축 및 네이버 FaceSign 시스템 연동 기획. | Spring Boot, Redis, Kafka, Docker, AWS, React Vite | **10,000 VU 대상 부하 테스트(정합성 및 순서 보장) 통과.**<br/>[🔗 GitHub](https://github.com/orgs/DKU-Dan-Zzan/repositories) |
 | **SketchToSpec** (개인프로젝트)| 2025.11 – 2025.12 | 손그림 UI·기능·텍스트 입력을 결합하여 SRS 요구사항 명세서 및 ASCII 화면 흐름을 자동 생성하는 멀티모달 ReAct Agent 시스템.<br/>OpenCV 기반 UI 요소 감지 및 LangGraph StateGraph 기반 Self-Healing(Plan Revision) 루프 구현. | LangGraph, Streamlit, OpenCV, PyTorch, Local LLM (Qwen) | **LangGraph 기반 멀티모달 ReAct Agent 파이프라인 구축**<br/>[🔗 GitHub](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT) |
@@ -66,6 +67,7 @@
 
 | 연월일 | 수상명 | 주최 / 기관 | 비고 |
 |:--:|:--|:--|:--|
+| **2026.08.** | 🏆 의료 특화 파운데이션 모델 해커톤 벤치마크상 | 루닛 · 과학기술정보통신부 · NIPA | AIM팀 · 주요 의과학 벤치마크에서 글로벌 프론티어 모델과 비견 가능한 성능 입증 · [공식 기사](https://www.lunit.io/ko/media-hub/%EB%A3%A8%EB%8B%9B-%EA%B5%AD%EA%B0%80%EA%B3%BC%EC%A0%9C-ai-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-%EC%B2%AB-%ED%95%B4%EC%BB%A4%ED%86%A4-%EC%84%B1%EB%A3%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90/) |
 | **2025.11.22.** | 🏆 EASYTHON 2025 해커톤 우수상 | 단국대 SW중심사업단 | 프로젝트: *Sun(善)-Date* |
 | **2025.08.20.** | 🥇 WDSC 2025 우수논문상 | 정보보안 및 고신뢰컴퓨팅 하계워크샵 | 논문: *Visualization and Semantic Interpretation...* |
 | **2025.05.10.** | 🏆 KHUTHON 2025 해커톤 우수상 | SW중심사업단 (단국대 외 3개교) | 프로젝트: *AI Bird Repeller* |
