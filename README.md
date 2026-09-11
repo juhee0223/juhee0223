@@ -67,7 +67,7 @@
 
 | 연월일 | 수상명 | 주최 / 기관 | 비고 |
 |:--:|:--|:--|:--|
-| **2026.08.** | 🏆 의료 특화 파운데이션 모델 해커톤 벤치마크상 | 루닛 · 과학기술정보통신부 · NIPA | AIM팀 · 주요 의과학 벤치마크에서 글로벌 프론티어 모델과 비견 가능한 성능 입증 · [공식 기사](https://www.lunit.io/ko/media-hub/%EB%A3%A8%EB%8B%9B-%EA%B5%AD%EA%B0%80%EA%B3%BC%EC%A0%9C-ai-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-%EC%B2%AB-%ED%95%B4%EC%BB%A4%ED%86%A4-%EC%84%B1%EB%A3%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90/) |
+| **2026.08.22.** | 🏆 의료 특화 파운데이션 모델 해커톤 벤치마크상 | 루닛 · 과학기술정보통신부 · NIPA | AIM팀 · 주요 의과학 벤치마크에서 글로벌 프론티어 모델과 비견 가능한 성능 입증 · [공식 기사](https://www.lunit.io/ko/media-hub/%EB%A3%A8%EB%8B%9B-%EA%B5%AD%EA%B0%80%EA%B3%BC%EC%A0%9C-ai-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-%EC%B2%AB-%ED%95%B4%EC%BB%A4%ED%86%A4-%EC%84%B1%EB%A3%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90/) |
 | **2025.11.22.** | 🏆 EASYTHON 2025 해커톤 우수상 | 단국대 SW중심사업단 | 프로젝트: *Sun(善)-Date* |
 | **2025.08.20.** | 🥇 WDSC 2025 우수논문상 | 정보보안 및 고신뢰컴퓨팅 하계워크샵 | 논문: *Visualization and Semantic Interpretation...* |
 | **2025.05.10.** | 🏆 KHUTHON 2025 해커톤 우수상 | SW중심사업단 (단국대 외 3개교) | 프로젝트: *AI Bird Repeller* |
