@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8EC5FC,100:E0C3FC&height=180&section=header&text=Juhee%20Park🌱&fontSize=50&fontColor=2F4F4F&animation=fadeIn&desc=Software%20Engineer&descAlignY=62&descAlign=50" />
 </p>
 
+
 <div align="center">
   
 | Name | Juhee Park (박주희) |
@@ -9,7 +10,9 @@
 | Major | 단국대학교 소프트웨어학과 (4학년) |
 | Email | pjuhee23@dankook.ac.kr |
 | GitHub | [github.com/juhee0223](https://github.com/juhee0223) |
+| Cert | 정보처리기사 (2026.09) |
 
+</div>
 </div>
 
 ---
