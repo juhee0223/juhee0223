@@ -14,7 +14,99 @@
 
 <br/>
 
-## Selected Projects
+<p align="center">
+  단국대학교 소프트웨어학과 4학년 &nbsp;·&nbsp; 정보처리기사 (2026.09)
+</p>
+
+<p align="center">
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#publications">Research</a> &nbsp;·&nbsp;
+  <a href="#awards">Awards</a> &nbsp;·&nbsp;
+  <a href="#case-studies">Case Studies</a> &nbsp;·&nbsp;
+  <a href="#activities">Activities</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Tech Stack</a>
+</p>
+
+<br/>
+
+<a id="projects"></a>
+
+## 🗂️ Projects
+
+서비스 개발·운영, AI 응용, 시스템 성능 연구를 이어왔습니다. 각 프로젝트의 구현 내용과 결과를 소개합니다.
+
+| 프로젝트 · 기간 | 구현·탐구한 내용 | 결과 · 자료 |
+| :--- | :--- | :--- |
+| **단짠**<br/>2025.12 – 진행 중 | 축제 티켓팅·관리자 서비스 개발과 운영. 가입 흐름, 이메일 기반 비밀번호 재설정, 외부 얼굴인증 입장 연계의 요구사항 조율<br/>`Spring Boot` `Redis` `Kafka` `Docker` `AWS` `React` | 팀 부하 테스트 **10,000 VU** 대상 정합성·순서 보장 확인<br/>[문제 해결 사례](#danzzan) · [GitHub](https://github.com/orgs/DKU-Dan-Zzan/repositories) |
+| **Conquer Health**<br/>2026.08 | 의료 특화 모델 기반 건강 상담. 의료 RAG·MCP 검색 접근 실험과 응답 규칙·평가 하네스 개선<br/>`Python` `Docker` `Pydantic` `Async` `LLM / RAG` `HealthBench` | 🏆 **의료 특화 FM 해커톤 벤치마크상**<br/>[개선 과정](#conquer-health) · [GitHub](https://github.com/Hackathon-AIM/health-conquer-submission) |
+| **OLLY**<br/>2026.05 – 2026.06 | LLM/RAG 서비스의 요청별 비용·토큰·지연·오류 추적. API 계측, 대시보드, SLM·Discord 알림을 연결한 관측성 MVP<br/>`FastAPI` `OpenTelemetry` `Prometheus` `Jaeger` `Grafana` `Kubernetes` `Ollama` | **5가지 시나리오 기반 관측·알림 검증**<br/>[설계와 검증](#olly) · [GitHub](https://github.com/lee-y-ch/olly) |
+| **SketchToSpec** · 개인<br/>2025.11 – 2025.12 | 손그림 UI·기능·텍스트 입력에서 SRS 요구사항 명세와 ASCII 화면 흐름 생성. UI 요소 감지와 계획 수정 루프 구현<br/>`LangGraph` `Streamlit` `OpenCV` `PyTorch` `Qwen` | **멀티모달 ReAct Agent 파이프라인 구축**<br/>[GitHub](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT) |
+| **Sun(善)-Date**<br/>2025.11 | 봉사활동을 함께 하며 서로를 알아가는 소셜 네트워킹·소개팅 서비스<br/>`Django` `Flutter` `Java` | 🏆 **EASYTHON 2025 우수상**<br/>[GitHub](https://github.com/day-e0n/sun_date) |
+| **FTL Simulator / GameGC**<br/>2025.10 – 2025.12 | Greedy·Cost-Benefit GC 정책과 Incremental GC를 모방한 Pipeline 기반 GameGC의 성능 비교. 지연 스파이크와 점진적 회수 패턴 분석<br/>`C` `File I/O` `Visualization` | **스토리지 GC 정책 비교 실험**<br/>[GitHub](https://github.com/day-e0n/ssp_team_project) |
+| **DACON 고객 지원 등급 분류** · 개인<br/>2025.09 – 2025.10 | 고객 데이터로 지원 필요 수준 분류. Feature Engineering과 모델별 성능 비교<br/>`Python` `scikit-learn` `TensorFlow` `XGBoost` | **F1 Score 상위 10%**<br/>[GitHub](https://github.com/juhee0223/DACON-Customer-Support-Classification) |
+| **AI Bird Repeller**<br/>2025.05 · 무박 2일 해커톤 | 농작물 피해 조류를 인식하고 기피음을 자동 재생하는 퇴치 시스템. 실시간 추론 환경의 리소스 최적화<br/>`Python` `Threading` `YOLOv5` `BirdNET` | 🏆 **KHUTHON 2025 우수상**<br/>[GitHub](https://github.com/JustYOLO/Getout_Bird) |
+| **RocksDB Compaction Analyzer**<br/>2025.01 – 2025.05 | Leveled·Universal·FIFO 정책별 성능 자동 측정·분석·시각화. 스토리지 엔진의 데이터 경로 구조 분석<br/>`RocksDB DBBench` `Bash` `Python` | **KCC 2025 논문 제1저자 발표**<br/>[연구 내용](#publications) |
+
+<br/>
+
+---
+
+<a id="publications"></a>
+
+## 📚 Publications & Research
+
+### 운영체제 교재기반 RAG시스템 구축
+
+**공동저자 · 2026 · 글통**  
+김보승, **박주희**, 최종무, 전광일, 박민규
+
+운영체제 교재 텍스트를 바탕으로 RAG 시스템을 구축하는 과정을 다룬 교육용 저서입니다.
+
+`비매품 단행본` &nbsp; `ISBN 979-11-94546-10-8`
+
+### Visualization and Semantic Interpretation of Vector Space Structures: A Case Study Based on OSTEP
+
+**공동저자 · WDSC 2025 · 🏆 우수논문상**  
+Bo-seung Kim, **Juhee Park**, 외 4명
+
+OSTEP 교재 텍스트를 임베딩하고, 벡터 공간의 구조를 시각화해 의미론적 군집을 분석한 연구입니다.
+
+[학회](https://sites.google.com/view/wdsc2025/) · [연구 저장소](https://github.com/DKU-StarLab/OSTEP_RAG)
+
+### RocksDB에서 Compaction Style에 따른 성능 변화 분석
+
+**제1저자 · KCC 2025 발표**  
+**박주희**, 신호진, Guangxun Zhao, 최종무
+
+RocksDB의 Leveled·Universal·FIFO 컴팩션 정책에 따른 Write Amplification과 Read Efficiency의 트레이드오프를 정량적으로 분석했습니다.
+
+[학회](https://www.kiise.or.kr/conference/kcc/2025/) · NRF 중견연구자지원사업 / SW중심대학사업
+
+<br/>
+
+---
+
+<a id="awards"></a>
+
+## 🏆 Awards & Honors
+
+| 날짜 | 수상 | 기관 · 관련 결과물 |
+| :--- | :--- | :--- |
+| **2026.08.22** | **의료 특화 파운데이션 모델 해커톤 벤치마크상** | 루닛 · 과학기술정보통신부 · NIPA<br/>AIM팀 / Conquer Health · [공식 기사](https://www.lunit.io/ko/media-hub/%EB%A3%A8%EB%8B%9B-%EA%B5%AD%EA%B0%80%EA%B3%BC%EC%A0%9C-ai-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-%EC%B2%AB-%ED%95%B4%EC%BB%A4%ED%86%A4-%EC%84%B1%EB%A3%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90/) |
+| **2025.11.22** | **EASYTHON 2025 해커톤 우수상** | 단국대 SW중심사업단 / Sun(善)-Date |
+| **2025.08.20** | **WDSC 2025 우수논문상** | 정보보안 및 고신뢰컴퓨팅 하계워크샵 / OSTEP 벡터 공간 분석 연구 |
+| **2025.05.10** | **KHUTHON 2025 해커톤 우수상** | SW중심사업단 (단국대 외 3개교) / AI Bird Repeller |
+
+<br/>
+
+---
+
+<a id="case-studies"></a>
+
+## 🔬 Case Studies
+
+대표 프로젝트에서 요구사항을 정리하고, 구현 방향을 결정하고, 결과를 확인한 과정입니다.
+
 
 | 🎟️ 서비스 개발·운영 | 🧪 AI 응답 개선 | 🔎 시스템 관측·검증 |
 | :--- | :--- | :--- |
@@ -181,23 +273,38 @@ PR은 입력 안내와 동의 판정 변경의 근거입니다. 최초 가입 �
 
 ---
 
-## More Projects & Research
+<a id="activities"></a>
 
-<details>
-<summary><b>개인 프로젝트 · 해커톤 · 연구 경험 더 보기</b></summary>
+## 🤝 Activities
+
+**단국대학교 SW 서포터즈 (2026.03 ~ 2026.08)**  
+- **홍보 및 마케팅 기획:** 신설된 홍보팀 소속으로 SW중심대학사업단 주요 행사 및 장학 정보를 알리는 인스타그램 카드뉴스 기획 및 디자인 제작.
+- **행사 메인 진행(MC):** 교내 주요 경진대회 발표장 메인 진행자(MC) 담당 및 각종 SW 관련 행사 운영 전반 총괄 지원.
+
+**단국대학교 SW 서포터즈 (2025.09 ~ 2026.02)**  
+- **행사 운영 지원:** 캡스톤 대회, AI톤 등 SW중심대학사업단 주관 주요 행사 운영 보조.
+- **실습 및 연구 지원:** Cosmos+ OpenSSD 장비 관리, FTL 실습 지원 및 연구 장비 교육 보조를 통한 실무 경험 축적.
 
 <br/>
 
-| 프로젝트 | 탐구한 문제 |
-| :--- | :--- |
-| [**SketchToSpec**](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT) · 개인 | 손그림 UI와 기능 설명을 요구사항 명세·화면 흐름으로 변환하는 멀티모달 에이전트 |
-| [**Sun(善)-Date**](https://github.com/day-e0n/sun_date) | 봉사활동을 매개로 한 소셜 네트워킹 · EASYTHON 2025 우수상 |
-| [**FTL Simulator / GameGC**](https://github.com/day-e0n/ssp_team_project) | GC 정책에 따른 지연과 점진적 회수 패턴 비교 |
-| [**고객 지원 등급 분류**](https://github.com/juhee0223/DACON-Customer-Support-Classification) · 개인 | 고객 데이터의 특성 설계와 분류 모델 비교 |
-| [**AI Bird Repeller**](https://github.com/JustYOLO/Getout_Bird) | 조류 인식과 소리 재생을 연결한 퇴치 시스템 · KHUTHON 2025 우수상 |
-| **RocksDB Compaction Analyzer** | Compaction 정책별 성능 측정·분석·시각화 · KCC 2025 논문 제1저자 발표 |
+---
 
-</details>
+<a id="tech-stack"></a>
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <br/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> 
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <br/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> 
+</p>
 
 <br/>
 
