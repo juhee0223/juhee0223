@@ -50,8 +50,9 @@
 
 **팀 운영 성과: 가입자 약 6,000명 · 티켓 3,500장 1분 매진 · 봄·가을축제 2회 운영**
 
-`React` `TypeScript` `Spring Boot` `MySQL` `Redis` `Lua` `Docker` `NHN Cloud` `Azure`
+`React` `TypeScript` `Spring Boot` `MySQL` `Redis` `Lua` `Docker` `AWS` `NHN Cloud` `Azure` `Google Analytics (GA)`
 
+[![GitHub Organization](https://img.shields.io/badge/GitHub-Organization-475569?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-Dan-Zzan)
 [![GitHub Frontend](https://img.shields.io/badge/GitHub-Frontend-2563EB?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-Dan-Zzan/Danzzan-FE)
 [![GitHub Backend](https://img.shields.io/badge/GitHub-Backend-EA580C?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-Dan-Zzan/Danzzan-BE)
 
@@ -103,10 +104,10 @@ LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보�
 
 ### 안운잘부 · DKU-MUSAZ
 
-**Pleos 차량용 안전운전 챌린지 앱**  
+**현대자동차 공모전 제출용 · Pleos 기반 안전운전 챌린지 앱**  
 2026.11 · 팀 프로젝트 · Android 프로토타입
 
-목적지 주변의 챌린지에 참가하고, 마지막 10km의 주행을 평가해 도착·주차 후 운전 습관을 돌아보는 앱입니다. 차량·내비게이션 신호를 활용해 주행 결과를 기록하고, 배지와 마일리지를 모으는 흐름을 제공합니다.
+현대자동차 공모전 제출을 위해 개발한 Android 앱으로, 현대자동차그룹의 모빌리티 소프트웨어 플랫폼 **Pleos**를 기반으로 합니다. 목적지 주변의 챌린지에 참가하고, 마지막 10km의 주행을 평가해 도착·주차 후 운전 습관을 돌아봅니다. 차량·내비게이션 신호를 활용해 주행 결과를 기록하고, 배지와 마일리지를 모으는 흐름을 제공합니다.
 
 챌린지 홈과 배지 컬렉션을 개편하고, 주행 기록·배지·마일리지를 같은 결과 기준으로 연결했습니다. 하루 참여 제한과 중복 보상 방지, 안전벨트 참가·실격 조건, 방향지시등 판정 및 기록 기반 피드백을 보완했습니다. 에뮬레이터와 입력 신호를 활용한 검증 시나리오도 정리했습니다.
 
