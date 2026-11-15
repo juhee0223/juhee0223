@@ -136,6 +136,18 @@ LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보�
 
 ## Research & Publications | 연구·논문
 
+### 운영체제 교재 기반 RAG 공동연구
+
+운영체제 교재 기반 RAG 연구에서 키워드 시각화와 결과 해석에 참여했습니다. Text-to-SQL 입력 데이터 정제도 수행했습니다.
+
+<br>
+
+### OpenSSD 할당 정책 공동연구
+
+Cosmos+ OpenSSD의 할당 정책별 대역폭·지연시간 분석 공동연구에 참여했습니다.
+
+<br>
+
 ### RocksDB Compaction 분석
 
 시스템소프트웨어 연구실의 공동연구로 Leveled·Universal·FIFO Compaction의 성능을 비교했습니다. 실험 결과를 표와 그래프로 정리하고, 쓰기 증폭과 읽기 처리율뿐 아니라 실제 조회 성공 횟수와 데이터 보존 여부를 함께 분석했습니다. 연구 결과를 논문으로 작성해 **KCC 2025에서 제1저자로 발표**했습니다.
@@ -144,17 +156,15 @@ LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보�
 
 <br>
 
-### RAG·OpenSSD 공동연구
-
-운영체제 교재 기반 RAG 연구에서 키워드 시각화와 결과 해석에 참여했습니다. Cosmos+ OpenSSD의 할당 정책별 대역폭·지연시간 분석 공동연구와 Text-to-SQL 입력 데이터 정제도 수행했습니다.
+### 논문·저서
 
 | 연도 | 논문·저서 | 발표·참여 | 관련 저장소 |
 | :--- | :--- | :--- | :--- |
-| 2025 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석** | KCC 2025 · **제1저자 발표** | — |
 | 2026 | **OSTEP 교재 기반 임베딩 모델의 구조적 특성과 검색 증강 생성 성능 비교 연구** | 정보과학회 컴퓨팅의 실제 논문지 · 공동저자 | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
-| 2025 | **벡터 공간 구조의 특성 시각화 및 의미론적 해석: OSTEP 교재 기반 사례 연구** | WDSC 2025 · 공동저자 · **우수논문상** | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
-| 2025 | **SSD 병렬성을 활용한 할당 정책에 따른 Bandwidth 및 Latency 분석** | KSC 2025 · 공동저자 | — |
 | 2026 | **운영체제 교재기반 RAG시스템 구축** | 글통 · 공동저자 · 비매품 단행본 | — |
+| 2025 | **SSD 병렬성을 활용한 할당 정책에 따른 Bandwidth 및 Latency 분석** | KSC 2025 · 공동저자 | — |
+| 2025 | **벡터 공간 구조의 특성 시각화 및 의미론적 해석: OSTEP 교재 기반 사례 연구** | WDSC 2025 · 공동저자 · **우수논문상** | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
+| 2025 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석** | KCC 2025 · **제1저자 발표** | — |
 
 <br><br>
 
@@ -215,7 +225,7 @@ Cosmos+ OpenSSD 환경에서 GC 정책에 따른 지연 스파이크와 회수 �
 | :--- | :--- | :--- |
 | 2025.01 – 2026.02 | **단국대학교 시스템소프트웨어 Lab** | RocksDB·RAG·OpenSSD 공동연구, 논문 작성·발표 |
 | 2025.09 – 2026.08 | **단국대학교 SW 서포터즈** | 행사·장학 정보 카드뉴스 제작, 행사 운영 지원, 경진대회 발표장 MC |
-| 2026.01 – 2026.09 | **단국대학교 축제준비위원회 현장 스태프** | 관리자 시스템을 활용한 예매자 조회·입장 팔찌 배부 |
+| 2026.01 – 2026.09 | **단국대학교 축제준비위원회 및 현장 스태프** | 관리자 시스템을 활용한 예매자 조회·입장 팔찌 배부 |
 
 <br><br>
 
