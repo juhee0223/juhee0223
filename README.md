@@ -52,8 +52,52 @@
 
 `React` `TypeScript` `Spring Boot` `MySQL` `Redis` `Lua` `Docker` `NHN Cloud` `Azure`
 
-[![GitHub Frontend](https://img.shields.io/badge/GitHub-Frontend-181717?style=flat-square&logo=github)](https://github.com/DKU-Dan-Zzan/Danzzan-FE)
-[![GitHub Backend](https://img.shields.io/badge/GitHub-Backend-181717?style=flat-square&logo=github)](https://github.com/DKU-Dan-Zzan/Danzzan-BE)
+[![GitHub Frontend](https://img.shields.io/badge/GitHub-Frontend-2563EB?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-Dan-Zzan/Danzzan-FE)
+[![GitHub Backend](https://img.shields.io/badge/GitHub-Backend-EA580C?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-Dan-Zzan/Danzzan-BE)
+
+<br>
+
+### Conquer Health
+
+**의료 AI 응답 개선 및 벤치마크 평가**  
+2026.08 · 5인 팀
+
+의료 질문에 대한 LLM 응답을 HealthBench 평가 기준에 맞춰 개선한 해커톤 프로젝트입니다. 구현안을 비교해 제출 방향을 제안하고, 평가 기준 분석과 응답 규칙·평가 하네스의 공동 개선에 참여했습니다.
+
+**팀 성과: 최종 평균 46.51점 · 평가 참여 14팀 중 1위 · 의료 특화 FM 해커톤 벤치마크상**
+
+`Python` `LLM API` `HealthBench` `Docker`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/Hackathon-AIM/health-conquer-submission)
+[![루닛 공식 기사](https://img.shields.io/badge/Article-Lunit-DB2777?style=flat-square&labelColor=181717)](https://www.lunit.io/ko/media-hub/%eb%a3%a8%eb%8b%9b-%ea%b5%ad%ea%b0%80%ea%b3%bc%ec%a0%9c-ai-%eb%aa%a8%eb%8d%b8-%ed%99%9c%ec%9a%a9-%ec%b2%ab-%ed%95%b4%ec%bb%a4%ed%86%a4-%ec%84%b1%eb%a3%8c-%ea%b0%9c%eb%b0%9c%ec%9e%90/)
+
+<br>
+
+### OLLY
+
+**LLM 애플리케이션의 요청 흐름을 관측하는 로컬 MVP**  
+2026.05 – 06 · 4인 팀
+
+LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보드와 분산 추적으로 확인하는 시스템입니다. 지연·오류 문제를 정의하고 기존 솔루션과 로컬 SLM 적용 가능성을 검토했으며, 검증 시나리오를 설계하고 직접 실행했습니다.
+
+**팀 검증: 5개 시나리오 × 10회 실행으로 관측 결과 확인**
+
+`FastAPI` `OpenTelemetry` `Prometheus` `Grafana` `Jaeger` `Docker` `Kubernetes` `Ollama`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/lee-y-ch/olly)
+
+<br>
+
+### SketchToSpec
+
+**손그림 UI를 요구사항 명세로 바꾸는 멀티모달 ReAct Agent**  
+2025.11 – 12 · 개인 프로젝트
+
+손그림 화면과 자연어 요구사항을 입력받아 UI 요소를 분석하고, 요구사항 명세서와 ASCII 화면 흐름을 생성합니다. OpenCV 기반 요소 감지, LangGraph의 상태 흐름, 명세 생성과 결과 확인까지 연결했습니다.
+
+`Python` `LangGraph` `Streamlit` `OpenCV` `PyTorch` `Qwen`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT)
 
 <br>
 
@@ -70,51 +114,8 @@
 
 `Kotlin` `Jetpack Compose` `StateFlow` `Android Automotive` `Pleos Vehicle SDK` `NaviHelper`
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/DKU-MUSAZ/h1-score)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-MUSAZ/h1-score)
 [![APK](https://img.shields.io/badge/APK-Release-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/DKU-MUSAZ/h1-score/releases/tag/contest-submission)
-
-<br>
-
-### Conquer Health
-
-**의료 AI 응답 개선 및 벤치마크 평가**  
-2026.08 · 5인 팀
-
-의료 질문에 대한 LLM 응답을 HealthBench 평가 기준에 맞춰 개선한 해커톤 프로젝트입니다. 구현안을 비교해 제출 방향을 제안하고, 평가 기준 분석과 응답 규칙·평가 하네스의 공동 개선에 참여했습니다.
-
-**팀 성과: 최종 평균 46.51점 · 평가 참여 14팀 중 1위 · 의료 특화 FM 해커톤 벤치마크상**
-
-`Python` `LLM API` `HealthBench` `Docker`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Hackathon-AIM/health-conquer-submission)
-
-<br>
-
-### OLLY
-
-**LLM 애플리케이션의 요청 흐름을 관측하는 로컬 MVP**  
-2026.05 – 06 · 4인 팀
-
-LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보드와 분산 추적으로 확인하는 시스템입니다. 지연·오류 문제를 정의하고 기존 솔루션과 로컬 SLM 적용 가능성을 검토했으며, 검증 시나리오를 설계하고 직접 실행했습니다.
-
-**팀 검증: 5개 시나리오 × 10회 실행으로 관측 결과 확인**
-
-`FastAPI` `OpenTelemetry` `Prometheus` `Grafana` `Jaeger` `Docker` `Kubernetes` `Ollama`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/lee-y-ch/olly)
-
-<br>
-
-### SketchToSpec
-
-**손그림 UI를 요구사항 명세로 바꾸는 멀티모달 ReAct Agent**  
-2025.11 – 12 · 개인 프로젝트
-
-손그림 화면과 자연어 요구사항을 입력받아 UI 요소를 분석하고, 요구사항 명세서와 ASCII 화면 흐름을 생성합니다. OpenCV 기반 요소 감지, LangGraph의 상태 흐름, 명세 생성과 결과 확인까지 연결했습니다.
-
-`Python` `LangGraph` `Streamlit` `OpenCV` `PyTorch` `Qwen`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/juhee0223/DEEPLEARNING_AI_AGENT)
 
 <br>
 
@@ -129,47 +130,7 @@ LLM 요청의 지연시간·토큰 사용량·오류를 수집하고, 대시보�
 
 `Django` `Flutter` `Java`
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/day-e0n/sun_date)
-
-<br><br>
-
-## More Projects | 그 밖의 프로젝트
-
-### FTL / GameGC
-
-**스토리지 가비지 컬렉션 정책 비교** · 2025.10 – 12 · 팀 프로젝트
-
-Cosmos+ OpenSSD 환경에서 GC 정책에 따른 지연 스파이크와 회수 패턴을 비교했습니다. GameGC·Greedy의 스케줄링과 free-block·페이지 진행 제어를 수정하고, Cost-Benefit 정책의 디버깅·검증 로그 및 빌드 호환성을 보완했습니다.
-
-`C` `Cosmos+ OpenSSD` `Xilinx` `File I/O`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/day-e0n/ssp_team_project)
-
-<br>
-
-### DACON 고객 지원 등급 분류
-
-**고객 데이터 기반 분류 모델링** · 2025.09 – 10 · 개인 프로젝트
-
-고객 데이터를 탐색·전처리하고 행동 패턴을 반영한 파생 변수를 만들었습니다. 교차검증을 바탕으로 분류 모델과 클래스 불균형 처리 방법을 비교해 <strong>F1 Score 기준 상위 10%</strong>를 기록했습니다.
-
-`Python` `scikit-learn` `TensorFlow` `XGBoost`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/juhee0223/DACON-Customer-Support-Classification)
-
-<br>
-
-### AI Bird Repeller
-
-**조류 인식·기피음 재생 시스템** · 2025.05 · 팀 해커톤
-
-조류를 인식하고 기피음을 재생하는 시스템입니다. 유해조류 문제를 바탕으로 아이디어를 제안하고, 퇴치음 조사·음원 제작·API 기반 재생과 발표를 담당했습니다.
-
-**팀 성과: KHUTHON 2025 우수상**
-
-`Python` `YOLOv5` `BirdNET` `Threading`
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/JustYOLO/Getout_Bird)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/day-e0n/sun_date)
 
 <br><br>
 
@@ -189,11 +150,72 @@ Cosmos+ OpenSSD 환경에서 GC 정책에 따른 지연 스파이크와 회수 �
 
 | 연도 | 논문·저서 | 발표·참여 | 관련 저장소 |
 | :--- | :--- | :--- | :--- |
-| 2026 | **OSTEP 교재 기반 임베딩 모델의 구조적 특성과 검색 증강 생성 성능 비교 연구** | 정보과학회 컴퓨팅의 실제 논문지 · 공동저자 | [![GitHub](https://img.shields.io/badge/GitHub-Research-181717?style=flat-square&logo=github)](https://github.com/DKU-StarLab/OSTEP_RAG) |
-| 2026 | **운영체제 교재기반 RAG시스템 구축** | 글통 · 공동저자 · 비매품 단행본 | — |
-| 2025 | **SSD 병렬성을 활용한 할당 정책에 따른 Bandwidth 및 Latency 분석** | KSC 2025 · 공동저자 | — |
-| 2025 | **벡터 공간 구조의 특성 시각화 및 의미론적 해석: OSTEP 교재 기반 사례 연구** | WDSC 2025 · 공동저자 · **우수논문상** | [![GitHub](https://img.shields.io/badge/GitHub-Research-181717?style=flat-square&logo=github)](https://github.com/DKU-StarLab/OSTEP_RAG) |
 | 2025 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석** | KCC 2025 · **제1저자 발표** | — |
+| 2026 | **OSTEP 교재 기반 임베딩 모델의 구조적 특성과 검색 증강 생성 성능 비교 연구** | 정보과학회 컴퓨팅의 실제 논문지 · 공동저자 | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
+| 2025 | **벡터 공간 구조의 특성 시각화 및 의미론적 해석: OSTEP 교재 기반 사례 연구** | WDSC 2025 · 공동저자 · **우수논문상** | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
+| 2025 | **SSD 병렬성을 활용한 할당 정책에 따른 Bandwidth 및 Latency 분석** | KSC 2025 · 공동저자 | — |
+| 2026 | **운영체제 교재기반 RAG시스템 구축** | 글통 · 공동저자 · 비매품 단행본 | — |
+
+<br><br>
+
+## Awards | 수상
+
+| 일자 | 수상 | 프로젝트·연구 | GitHub |
+| :--- | :--- | :--- | :--- |
+| 2026.08.22 | **의료 특화 FM 해커톤 벤치마크상** | Conquer Health | [![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/Hackathon-AIM/health-conquer-submission) |
+| 2025.11.22 | **EASYTHON 우수상** | Sun(善)-Date | [![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/day-e0n/sun_date) |
+| 2025.08.20 | **WDSC 우수논문상** | OSTEP 교재 기반 벡터 공간 시각화 연구 | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
+| 2025.05.10 | **KHUTHON 우수상** | AI Bird Repeller | [![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/JustYOLO/Getout_Bird) |
+
+<br><br>
+
+## More Projects | 그 밖의 프로젝트
+
+### FTL / GameGC
+
+**스토리지 가비지 컬렉션 정책 비교** · 2025.10 – 12 · 팀 프로젝트
+
+Cosmos+ OpenSSD 환경에서 GC 정책에 따른 지연 스파이크와 회수 패턴을 비교했습니다. GameGC·Greedy의 스케줄링과 free-block·페이지 진행 제어를 수정하고, Cost-Benefit 정책의 디버깅·검증 로그 및 빌드 호환성을 보완했습니다.
+
+`C` `Cosmos+ OpenSSD` `Xilinx` `File I/O`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/day-e0n/ssp_team_project)
+
+<br>
+
+### AI Bird Repeller
+
+**조류 인식·기피음 재생 시스템** · 2025.05 · 팀 해커톤
+
+조류를 인식하고 기피음을 재생하는 시스템입니다. 유해조류 문제를 바탕으로 아이디어를 제안하고, 퇴치음 조사·음원 제작·API 기반 재생과 발표를 담당했습니다.
+
+**팀 성과: KHUTHON 2025 우수상**
+
+`Python` `YOLOv5` `BirdNET` `Threading`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/JustYOLO/Getout_Bird)
+
+<br>
+
+### DACON 고객 지원 등급 분류
+
+**고객 데이터 기반 분류 모델링** · 2025.09 – 10 · 개인 프로젝트
+
+고객 데이터를 탐색·전처리하고 행동 패턴을 반영한 파생 변수를 만들었습니다. 교차검증을 바탕으로 분류 모델과 클래스 불균형 처리 방법을 비교해 <strong>F1 Score 기준 상위 10%</strong>를 기록했습니다.
+
+`Python` `scikit-learn` `TensorFlow` `XGBoost`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-0F766E?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/juhee0223/DACON-Customer-Support-Classification)
+
+<br><br>
+
+## Experience & Activities | 경험·활동
+
+| 기간 | 소속·활동 | 주요 경험 |
+| :--- | :--- | :--- |
+| 2025.01 – 2026.02 | **단국대학교 시스템소프트웨어 Lab** | RocksDB·RAG·OpenSSD 공동연구, 논문 작성·발표 |
+| 2025.09 – 2026.08 | **단국대학교 SW 서포터즈** | 행사·장학 정보 카드뉴스 제작, 행사 운영 지원, 경진대회 발표장 MC |
+| 2026.01 – 2026.09 | **단국대학교 축제준비위원회 현장 스태프** | 관리자 시스템을 활용한 예매자 조회·입장 팔찌 배부 |
 
 <br><br>
 
@@ -242,27 +264,6 @@ Cosmos+ OpenSSD 환경에서 GC 정책에 따른 지연 스파이크와 회수 �
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-<br><br>
-
-## Experience & Activities | 경험·활동
-
-| 기간 | 소속·활동 | 주요 경험 |
-| :--- | :--- | :--- |
-| 2025.01 – 2026.02 | **단국대학교 시스템소프트웨어 Lab** | RocksDB·RAG·OpenSSD 공동연구, 논문 작성·발표 |
-| 2025.09 – 2026.08 | **단국대학교 SW 서포터즈** | 행사·장학 정보 카드뉴스 제작, 행사 운영 지원, 경진대회 발표장 MC |
-| 2026.01 – 2026.09 | **단국대학교 축제준비위원회 현장 스태프** | 관리자 시스템을 활용한 예매자 조회·입장 팔찌 배부 |
-
-<br><br>
-
-## Awards | 수상
-
-| 일자 | 수상 | 프로젝트·연구 | GitHub |
-| :--- | :--- | :--- | :--- |
-| 2026.08.22 | **의료 특화 FM 해커톤 벤치마크상** | Conquer Health | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/Hackathon-AIM/health-conquer-submission) |
-| 2025.11.22 | **EASYTHON 우수상** | Sun(善)-Date | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/day-e0n/sun_date) |
-| 2025.08.20 | **WDSC 우수논문상** | OSTEP 교재 기반 벡터 공간 시각화 연구 | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/DKU-StarLab/OSTEP_RAG) |
-| 2025.05.10 | **KHUTHON 우수상** | AI Bird Repeller | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/JustYOLO/Getout_Bird) |
 
 <br><br>
 
