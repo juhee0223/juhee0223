@@ -155,17 +155,19 @@ Cosmos+ OpenSSD의 할당 정책별 대역폭·지연시간 분석 공동연구�
 
 `RocksDB` `db_bench` `Bash` `Python`
 
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-DC2626?style=flat-square&labelColor=181717)](papers/KCC2025-RocksDB-Compaction-Styles.pdf)
+
 <br>
 
 ### 논문·저서
 
-| 연도 | 논문·저서 | 발표·참여 | 관련 저장소 |
+| 연도 | 논문·저서 | 발표·참여 | 자료·저장소 |
 | :--- | :--- | :--- | :--- |
 | 2026 | **OSTEP 교재 기반 임베딩 모델의 구조적 특성과 검색 증강 생성 성능 비교 연구** | 정보과학회 컴퓨팅의 실제 논문지 · 공동저자 | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
 | 2026 | **운영체제 교재기반 RAG시스템 구축** | 글통 · 공동저자 · 비매품 단행본 | — |
 | 2025 | **SSD 병렬성을 활용한 할당 정책에 따른 Bandwidth 및 Latency 분석** | KSC 2025 · 공동저자 | — |
 | 2025 | **벡터 공간 구조의 특성 시각화 및 의미론적 해석: OSTEP 교재 기반 사례 연구** | WDSC 2025 · 공동저자 · **우수논문상** | [![GitHub](https://img.shields.io/badge/GitHub-Research-7C3AED?style=flat-square&logo=github&logoColor=white&labelColor=181717)](https://github.com/DKU-StarLab/OSTEP_RAG) |
-| 2025 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석** | KCC 2025 · **제1저자 발표** | — |
+| 2025 | **RocksDB에서 Compaction Style에 따른 성능 변화 분석** | KCC 2025 · **제1저자 발표** | [![Paper PDF](https://img.shields.io/badge/Paper-PDF-DC2626?style=flat-square&labelColor=181717)](papers/KCC2025-RocksDB-Compaction-Styles.pdf) |
 
 <br><br>
 
